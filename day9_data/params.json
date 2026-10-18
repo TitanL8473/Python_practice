@@ -1,0 +1,18 @@
+{
+  "project": "隧道衬砌地震响应分析",
+  "earthquake": {
+    "magnitude": 7.0,
+    "epicenter_distance_km": 15.0,
+    "pga_g": 0.42
+  },
+  "site": {
+    "soil_type": "II类场地",
+    "shear_wave_velocity_m_s": 280
+  },
+  "analysis": {
+    "damping_ratio": 0.05,
+    "time_step_s": 0.01,
+    "duration_s": 30.0
+  },
+  "monitoring_points": 11
+}
