@@ -10,19 +10,20 @@
 
 ## 目录
 
-| 文件 | 主题 |
-|---|---|
-| `day1.py` | 重启：函数、类、字典基础 |
-| `day2.py` | 字典遍历与函数封装 |
-| `day3.py` | 类与对象 |
-| `day4.py` | 异常处理（try / except） |
-| `day5.py` | 代码卫生：命名、返回值、运算符优先级 |
+| 文件                                 | 主题 |
+|------------------------------------|---|
+| `day1.py`                          | 重启：函数、类、字典基础 |
+| `day2.py`                          | 字典遍历与函数封装 |
+| `day3.py`                          | 类与对象 |
+| `day4.py`                          | 异常处理（try / except） |
+| `day5.py`                          | 代码卫生：命名、返回值、运算符优先级 |
 | `day6_main.py` / `day6_mytools.py` | 模块化：自己写模块并 import |
-| `day7.py` | Git 与版本控制（实践记录） |
-| `day8.py` | pathlib：遍历文件夹、路径处理 |
-| `day9.py` | json / csv 读写（隧道地震响应监测数据示例） |
-| `day10.py` | numpy：数组与整体运算 |
-| `day11.py` | pandas：表格、筛选、groupby 分组统计 |
+| `day7.py`                          | Git 与版本控制（实践记录） |
+| `day8.py`                          | pathlib：遍历文件夹、路径处理 |
+| `day9.py`                          | json / csv 读写（隧道地震响应监测数据示例） |
+| `day10.py`                         | numpy：数组与整体运算 |
+| `day11.py`                         | pandas：表格、筛选、groupby 分组统计 |
+| `day12.py`                         |                           |
 
 ## 示例数据
 
