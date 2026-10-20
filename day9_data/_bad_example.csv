@@ -1,0 +1,6 @@
+point_id,distance_m,pga_g,disp_mm,damage_level
+P01,0,0.42,12.3,none
+P02,50,,18.7,slight
+P03,100,abc,25.4,slight
+P04,150,0.78,33.1,moderate
+P05,200,0.91,,moderate
