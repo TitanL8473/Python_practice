@@ -50,11 +50,11 @@ crack_report/
 
 | 文件 | 涉及的知识点 |
 |---|---|
-| `day01.py` | 函数 `return` 的位置（必须在 `for` 循环**外面**）、字符串 `.lower()` 做大小写归一、不要用 `sum` 当变量名（会覆盖内置函数） |
-| `day02.py` | 字典 `.items()` 取键值对（**必须加括号**）、`return` 写在循环里的坑（第一次循环就返回）、函数封装 |
-| `day03.py` | 方法 vs 函数：`char.lower` 是**方法对象**，必须 `char.lower()` 才是调用结果、字符串处理 |
-| `day04.py` | `with open(...) as f` 读文件、`encoding="utf-8"`、用 `len()` 数行数、同目录相对路径 |
-| `day05.py` | `split()` 的默认行为（按任意空白切分、自动忽略连续空白）、内置函数与运算符优先级、代码卫生 |
+| `day01_基础语法.py` | 函数 `return` 的位置（必须在 `for` 循环**外面**）、字符串 `.lower()` 做大小写归一、不要用 `sum` 当变量名（会覆盖内置函数） |
+| `day02_字典与函数.py` | 字典 `.items()` 取键值对（**必须加括号**）、`return` 写在循环里的坑（第一次循环就返回）、函数封装 |
+| `day03_方法与对象.py` | 方法 vs 函数：`char.lower` 是**方法对象**，必须 `char.lower()` 才是调用结果、字符串处理 |
+| `day04_文件读取.py` | `with open(...) as f` 读文件、`encoding="utf-8"`、用 `len()` 数行数、同目录相对路径 |
+| `day05_字符串处理.py` | `split()` 的默认行为（按任意空白切分、自动忽略连续空白）、内置函数与运算符优先级、代码卫生 |
 
 ### 模块与工具
 
@@ -62,23 +62,23 @@ crack_report/
 |---|---|
 | `day06_mytools.py` | 自己写模块：把函数放进独立文件，供别处复用 |
 | `day06_main.py` | `import day06_mytools` 与 `from day06_mytools import count_vowels` 两种导入方式 |
-| `day07.py` | Git 三个区（工作区 / 暂存区 / 本地仓库）、`add` 是「挑出哪些改动」、`commit` 是「按下快门存档」 |
-| `day08.py` | `pathlib.Path`、`Path(__file__).resolve().parent` 定位脚本目录、`.name` / `.suffix`、`glob()` 遍历文件、列表推导式 |
+| `day07_git入门.py` | Git 三个区（工作区 / 暂存区 / 本地仓库）、`add` 是「挑出哪些改动」、`commit` 是「按下快门存档」 |
+| `day08_pathlib.py` | `pathlib.Path`、`Path(__file__).resolve().parent` 定位脚本目录、`.name` / `.suffix`、`glob()` 遍历文件、列表推导式 |
 
 ### 数据处理
 
 | 文件 | 涉及的知识点 |
 |---|---|
-| `day09.py` | `json.load(f)` 读 json、`csv.DictReader` 把每行读成字典、`to_string()` 防止列被省略、按字段分组统计 |
-| `day10.py` | `np.array`、`shape` / `dtype`、整体运算（`arr * 2`）、`mean/max/min/std`、布尔索引 `arr[arr > 0.8]` |
-| `day11.py` | `pd.read_csv`、条件筛行 `df[df["列"] > 值]`、`groupby` + `agg` 命名聚合、`reset_index()`、`to_csv(index=False)` |
-| `day12.py` | matplotlib 画图、`agg` 后端设置、`plot` 的 marker / linestyle / color、中文字体 `rcParams`、`savefig(dpi, bbox_inches)` |
+| `day09_json_csv.py` | `json.load(f)` 读 json、`csv.DictReader` 把每行读成字典、`to_string()` 防止列被省略、按字段分组统计 |
+| `day10_numpy.py` | `np.array`、`shape` / `dtype`、整体运算（`arr * 2`）、`mean/max/min/std`、布尔索引 `arr[arr > 0.8]` |
+| `day11_pandas.py` | `pd.read_csv`、条件筛行 `df[df["列"] > 值]`、`groupby` + `agg` 命名聚合、`reset_index()`、`to_csv(index=False)` |
+| `day12_matplotlib.py` | matplotlib 画图、`agg` 后端设置、`plot` 的 marker / linestyle / color、中文字体 `rcParams`、`savefig(dpi, bbox_inches)` |
 
 ### 项目笔记
 
 | 文件 | 涉及的知识点 |
 |---|---|
-| `day13.py` | **18 条学习笔记**：`__init__.py` 让文件夹成为包、`REQUIRED_COLUMNS` / `NUMERIC_COLUMNS` / `REQUIRED_NOT_NULL` 三者分工、`pd.to_numeric(errors="coerce")` 的 coerce、`dropna(subset=)` 与 `dropna()` 的区别、`if __name__ == "__main__"`、列表推导式 |
+| `day13_项目笔记.py` | **18 条学习笔记**：`__init__.py` 让文件夹成为包、`REQUIRED_COLUMNS` / `NUMERIC_COLUMNS` / `REQUIRED_NOT_NULL` 三者分工、`pd.to_numeric(errors="coerce")` 的 coerce、`dropna(subset=)` 与 `dropna()` 的区别、`if __name__ == "__main__"`、列表推导式 |
 
 ---
 
