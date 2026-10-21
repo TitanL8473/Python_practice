@@ -24,6 +24,7 @@
 | `day10.py`                         | numpy：数组与整体运算               |
 | `day11.py`                         | pandas：表格、筛选、groupby 分组统计   |
 | `day12.py`                         | matplotlib:画图               |
+| day13.py                           | 项目框架搭建                      |
 
 ## 示例数据
 
