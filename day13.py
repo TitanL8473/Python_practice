@@ -12,3 +12,9 @@
 #10.`sort_values(多列)`：多条件排序，先按排在前面的条件排序，按从小到大；
 #11.`reset_index(drop=True)`：排序、删行之后，序号会乱，重置索引，`drop=True`丢掉旧索引；
 #12.if __name__ == "__main__":表示只有运行__main__文件才会执行后续操作
+#13.main作用是执行loader里数据清洗函数，进行数据清洗
+#14.missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]为列表推导式
+#15.subset=["crack_id"]意思是只看这一个
+#16.def load_raw(path):return pd.read_csv(path),需要return
+#17.to_string保证数据好看且不被省略
+#18.统计不同值出现的次数
