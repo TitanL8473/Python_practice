@@ -58,6 +58,30 @@ git push -u origin main                          # 首次要加 -u
 
 ## 常见错误速查
 
+### ★ push 失败时，第一件事永远是查 remote
+
+```powershell
+git remote -v
+```
+
+正常应该是：
+
+```
+origin  https://github.com/你的用户名/仓库名.git (fetch)
+origin  https://github.com/你的用户名/仓库名.git (push)
+```
+
+**如果看到 `mirror.ghproxy.com`、`ghproxy.net`、`kkgithub.com` 这类第三方镜像前缀 —— 就是它的问题。**
+
+这些镜像站随时会挂，挂了就会报 `530` / `502` / `Connection refused`。改回官方地址即可：
+
+```powershell
+git remote set-url origin https://github.com/你的用户名/仓库名.git
+git push
+```
+
+---
+
 | 你看到的 | 原因 | 怎么办 |
 |---|---|---|
 | `nothing specified, nothing added.` | `git add` 后面**漏了 `.`** | 改成 `git add .` |
@@ -66,6 +90,7 @@ git push -u origin main                          # 首次要加 -u
 | `src refspec main does not match any` | 一次 commit 都没有就想 push | 先 add + commit |
 | `'origin' does not appear to be a git repository` | 没配 remote | `git remote add origin <地址>` |
 | `Everything up-to-date` | 本地没有新提交 | 正常，说明远程已是最新 |
+| **`error: 530` / `502`（且地址含 mirror.ghproxy）** | **第三方镜像挂了** | **`git remote set-url origin <官方地址>`** |
 | `Recv failure: Connection was reset` | 网络被掐 | **等几分钟重试**，或换手机热点 |
 | `fatal: unable to access ... CONNECT tunnel failed` | 走了坏代理 | 检查代理设置 |
 
