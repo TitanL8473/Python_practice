@@ -41,15 +41,15 @@ crack_report/
 
 | 文件 | 主题 |
 |---|---|
-| `day1.py` | 重启：函数、返回值、字典基础 |
-| `day2.py` | 字典遍历与函数封装 |
-| `day3.py` | 类与对象 |
-| `day4.py` | 异常处理（try / except） |
-| `day5.py` | 代码卫生：命名、返回值、运算符优先级 |
-| `day6_main.py` / `day6_mytools.py` | 模块化：自己写模块并 import |
-| `day7.py` | Git 与版本控制（实践笔记） |
-| `day8.py` | pathlib：路径处理、文件夹遍历 |
-| `day9.py` | json / csv 读写 |
+| `day01.py` | 重启：函数、返回值、字典基础 |
+| `day02.py` | 字典遍历与函数封装 |
+| `day03.py` | 类与对象 |
+| `day04.py` | 异常处理（try / except） |
+| `day05.py` | 代码卫生：命名、返回值、运算符优先级 |
+| `day06_main.py` / `day06_mytools.py` | 模块化：自己写模块并 import |
+| `day07.py` | Git 与版本控制（实践笔记） |
+| `day08.py` | pathlib：路径处理、文件夹遍历 |
+| `day09.py` | json / csv 读写 |
 | `day10.py` | numpy：数组与整体运算 |
 | `day11.py` | pandas：表格、筛选、groupby 分组统计 |
 | `day12.py` | matplotlib：把数据画成图 |
