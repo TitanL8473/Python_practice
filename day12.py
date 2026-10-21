@@ -16,7 +16,7 @@ from pathlib import Path
 plt.rcParams["font.sans-serif"] = ["SimHei"]
 plt.rcParams["axes.unicode_minus"] = False
 HERE = Path(__file__).resolve().parent
-DATA = HERE / 'day9_data'
+DATA = HERE / 'sample_data'
 csv = DATA / 'tunnel_response.csv'
 DATA_figure=HERE/'day12_figure'
 

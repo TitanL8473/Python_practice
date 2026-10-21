@@ -12,7 +12,7 @@ import numpy as np
 from pathlib import Path
 
 HERE=Path(__file__).resolve().parent
-DATA=HERE/'day9_data'
+DATA=HERE/'sample_data'
 csv_path=DATA/'tunnel_response.csv'
 json_path=DATA/'params.json'
 

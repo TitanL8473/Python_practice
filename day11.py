@@ -13,7 +13,7 @@
 import pandas as pd
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
-DATA=HERE/'day9_data'
+DATA=HERE/'sample_data'
 json_data=DATA/'params.json'
 csv_data=DATA/'tunnel_response.csv'
 

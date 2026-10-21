@@ -16,7 +16,7 @@ import csv
 import json
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
-DATA=HERE/"day9_data"
+DATA=HERE/"sample_data"
 
 def load_params(name):
     with open(DATA/name,encoding='utf-8') as f:
